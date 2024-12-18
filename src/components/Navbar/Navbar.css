@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img {
+    width: 50px; /* Adjust to your logo size */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .logo .text {
+    display: flex;
+    flex-direction: column; /* Stack main text and subtitle */
+  }
+  
+  .logo .text h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .logo .text h3 {
+    font-size: 14px;
+    color: #666;
+    margin: 0; /* Remove default margin */
+  }
+
+.navbar .profile{
+    width: 40px;
+}
+  
